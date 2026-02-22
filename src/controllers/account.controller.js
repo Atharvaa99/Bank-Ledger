@@ -25,7 +25,7 @@ async function getUserAccountsController(req,res){
 async function getAccountBalanceController(req,res){
     const { accountId } = req.params;
 
-    const account = await accountModel.findOneAndDelete({
+    const account = await accountModel.findOne({
         _id: accountId,
         user: req.user._id
     })
