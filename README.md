@@ -79,7 +79,7 @@ Transaction (fromAccount, toAccount, amount, idempotencyKey, status)
 Ledger (account, transaction, amount, type: Debit/Credit)
 ```
 
-### Transaction Flow (10 Steps)
+### Transaction Flow 
 
 1. Validate request body
 2. Check idempotency key (prevent duplicates)
