@@ -32,7 +32,7 @@ A production-grade financial transaction system implementing **double-entry book
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/financial-ledger-backend.git
+   git clone https://github.com/Atharvaa99/Bank-Ledger.git
    cd financial-ledger-backend
    ```
 
